@@ -1,7 +1,6 @@
 import React from "react";
 import "./styles/BadgePage.css";
 import Badge from "../components/Badge";
-import Navbar from "../components/Navbar";
 import BadgeForm from "../components/BadgeForm";
 class BadgePage extends React.Component {
   state = {
@@ -21,8 +20,6 @@ class BadgePage extends React.Component {
   render() {
     return (
       <div>
-        <Navbar />
-        <div className="BadgeNew__hero"></div>
         <div className="container">
           <div className="row">
             <div className="col-6">
